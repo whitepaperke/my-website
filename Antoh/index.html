@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotham garage</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #011222;
+        }
+        h2{
+            color: aliceblue;
+        }
+        .top nav{
+            background-color: #53b6e1;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .topnav a{
+            float:left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:none;
+            font-size: 17px;
+        }
+        .topnav a:hover{
+            border-bottom: 3px solid rgb(141,202,202) ;
+            color: black;
+            padding: 8px;
+            border-radius: 10px;
+         
+        }
+        .topnav a.active{
+            background-color:transparent;
+            color:#fff;
+            border-radius: 10px;
+        }
+        .topnav-right{
+            float:right;
+        }
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+        .container {
+            padding: 0 16px;
+            background-color: #575654;
+            border-radius: 8px;
+        }
+        .title {
+            color: grey;
+        }
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 8px;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+  
+    <div class="topnav">
+        <a class="active"></a>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./service.html">Service</a>
+        <a href="./contact.html">Contact</a>
+    </div>
+    <div class="about-section">
+        <h1>Car modification &
+            Repair
+            Shop</h1><br/>
+        <h1>Home Page</h1>
+        <p>We are a modifications and repair company.</p>
+        <p>Welcome to car masters Auto Body Repair.
+            At Car Master Auto Body Repair, we take pride in restoring your vehicle to its former glory.
+            Our skilled technicians specialize in collision repair, paintwork, and dent removal.
+            Whether you’ve been in an accident or just need some cosmetic touch-ups, we’ve got you covered.</p>
+    </div>
+    <h2 style="text-align:center">Some of our accomplished work.</h2>
+      <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="https://th.bing.com/th/id/R.1542dd17fe0060e39f06e431fd164034?rik=LOZ%2blYvShH3biA&pid=ImgRaw&r=0" alt="" style="width:100%">
+                <div class="container">
+                    <h3>Hot rod</h3>
+                    <p class="title">what has changed</p>
+                    <p>The hot rod boast a flathead 6 with a breaking horse power of 650 and a Nm torque of 900.<br/>It offers an 8 speed manual transmission that is rev matching.<br/>The car is stream lined to give the best fuel efficient hot rod. It is an all wheel drive with the option of making it either a rear wheel drive or front wheel drive.</p>
+                    <p>gothamgarage@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjA4NDNlOTMtYzIxOS00MjJlLTlkN2EtNjEwMTdiOTVmYmEzXkEyXkFqcGdeQXVyOTMzMjc1ODg@._V1_.jpg" alt="" style="width:100%">
+                    <div class="container">
+                        <h3>ford mach 1</h3>
+                        <p class="title">what has changed</p>
+                        <p>The Ford Mustang Mach 1 boasts a 5.0-liter V8 engine with 700  horsepower and 100 Nm of torque.<br/> It offers a 6-speed manual transmission with rev matching.<br/> It has rear-wheel drive and MagneRide Damping System, it delivers an exhilarating driving experience.</p>
+                        <p>gothamgarage@gmail.com</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
